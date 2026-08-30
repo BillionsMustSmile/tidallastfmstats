@@ -1,0 +1,17 @@
+{
+  "name": "Last.fm Stats Plugin Store",
+  "description": "TidaLuna Plugins by srich",
+  "author": {
+    "name": "srich",
+    "url": "https://github.com/srich"
+  },
+  "homepage": "https://github.com/srich/tidallastfmstats",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srich/tidallastfmstats.git"
+  },
+  "type": "module",
+  "plugins": [
+    "LastFMStats.mjs"
+  ]
+}

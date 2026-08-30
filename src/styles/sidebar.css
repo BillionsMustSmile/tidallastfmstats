@@ -1,0 +1,77 @@
+/* ==========================================================================
+   TidaLuna Last.fm Stats - Sidebar Navigation Button Styles
+   Material UI Typography & Seamless Tidal Alignment
+   ========================================================================== */
+
+.lfm-sidebar-item {
+  display: flex !important;
+  align-items: center !important;
+  gap: 16px !important;
+  width: 100% !important;
+  height: 40px !important;
+  padding: 0 16px !important;
+  box-sizing: border-box !important;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 8px !important;
+  color: rgba(255, 255, 255, 0.7) !important;
+  font-family: var(--lfm-font-family, "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif) !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  cursor: pointer !important;
+  text-align: left !important;
+  text-decoration: none !important;
+  transition: background-color 0.15s ease, color 0.15s ease !important;
+  user-select: none !important;
+  margin: 2px 0 !important;
+}
+
+.lfm-sidebar-item:hover {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.08) !important;
+}
+
+.lfm-sidebar-item.active,
+.lfm-sidebar-item[aria-current="page"] {
+  color: #ffffff !important;
+  background: rgba(255, 255, 255, 0.14) !important;
+  font-weight: 600 !important;
+}
+
+.lfm-sidebar-icon {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  width: 24px !important;
+  height: 24px !important;
+  flex-shrink: 0 !important;
+  color: inherit !important;
+}
+
+.lfm-sidebar-icon svg {
+  width: 20px !important;
+  height: 20px !important;
+  fill: currentColor !important;
+  stroke: none !important;
+  transition: transform 0.15s ease !important;
+}
+
+.lfm-sidebar-item:hover .lfm-sidebar-icon svg {
+  transform: scale(1.08) !important;
+}
+
+.lfm-sidebar-item.active .lfm-sidebar-icon svg {
+  fill: #ffffff !important;
+}
+
+.lfm-sidebar-label {
+  display: inline-block !important;
+  font-family: inherit !important;
+  font-size: 14px !important;
+  font-weight: inherit !important;
+  color: inherit !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  text-overflow: ellipsis !important;
+  line-height: 1 !important;
+}

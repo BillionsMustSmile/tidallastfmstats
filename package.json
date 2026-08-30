@@ -1,0 +1,32 @@
+{
+  "name": "LastFMStats",
+  "version": "1.0.0",
+  "description": "Import and display rich Last.fm listening stats, top tracks, artists, albums, and live scrobbles directly in Tidal with seamless theme integration.",
+  "author": {
+    "name": "srich",
+    "url": "https://github.com/srich"
+  },
+  "homepage": "https://github.com/srich/tidallastfmstats",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/srich/tidallastfmstats.git"
+  },
+  "type": "module",
+  "main": "./dist/LastFMStats.mjs",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "build": "node build.js",
+    "serve": "node serve.js",
+    "install-plugin": "node install.js"
+  },
+  "keywords": [
+    "tidal",
+    "tidal-hifi",
+    "tidaluna",
+    "luna",
+    "lastfm",
+    "stats",
+    "scrobble"
+  ],
+  "license": "MIT"
+}
