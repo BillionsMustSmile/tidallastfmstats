@@ -3,21 +3,21 @@
   "version": "1.0.0",
   "description": "Import and display rich Last.fm listening stats, top tracks, artists, albums, and live scrobbles directly in Tidal with seamless theme integration.",
   "author": {
-    "name": "srich",
-    "url": "https://github.com/srich"
+    "name": "BillionsMustSmile",
+    "url": "https://github.com/BillionsMustSmile"
   },
-  "homepage": "https://github.com/srich/tidallastfmstats",
+  "homepage": "https://github.com/BillionsMustSmile/tidallastfmstats",
   "repository": {
     "type": "git",
-    "url": "https://github.com/srich/tidallastfmstats.git"
+    "url": "https://github.com/BillionsMustSmile/tidallastfmstats.git"
   },
   "type": "module",
   "main": "./dist/LastFMStats.mjs",
-  "exports": "./src/index.ts",
+  "exports": "./src/index.tsx",
   "scripts": {
-    "build": "node build.js",
-    "serve": "node serve.js",
-    "install-plugin": "node install.js"
+    "build": "ELECTRON_RUN_AS_NODE=1 electron40 build.js",
+    "serve": "ELECTRON_RUN_AS_NODE=1 electron40 serve.js",
+    "install-plugin": "ELECTRON_RUN_AS_NODE=1 electron40 install.js"
   },
   "keywords": [
     "tidal",

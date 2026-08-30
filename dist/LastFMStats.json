@@ -2,13 +2,13 @@
   "name": "LastFMStats",
   "description": "Import and display rich Last.fm listening stats, top tracks, artists, albums, and live scrobbles directly in Tidal with seamless theme integration.",
   "author": {
-    "name": "srich",
-    "url": "https://github.com/srich"
+    "name": "BillionsMustSmile",
+    "url": "https://github.com/BillionsMustSmile"
   },
-  "homepage": "https://github.com/srich/tidallastfmstats",
+  "homepage": "https://github.com/BillionsMustSmile/tidallastfmstats",
   "repository": {
     "type": "git",
-    "url": "https://github.com/srich/tidallastfmstats.git"
+    "url": "https://github.com/BillionsMustSmile/tidallastfmstats.git"
   },
   "exports": "./src/index.ts",
   "version": "1.0.0",
